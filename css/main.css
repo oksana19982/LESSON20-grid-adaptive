@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "YesevaOne";
+    src: url("../fonts/YesevaOne-Regular.ttf")
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../fonts/ofont.ru_Muller.ttf")
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/Bold_Muller.ttf")
+}
+
+@font-face {
+    font-family: "MullerRegularItalic";
+    src: url("../fonts/MullerMediumItalic.otf")
+}
+
+@font-face {
+    font-family: "MullerMedium";
+    src: url("../fonts/MullerMedium.otf")
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    border-bottom: 1px solid #ebe1cf;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 50px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.more_name {
+    font-size: 11px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    padding-bottom: 52px;
+}
+
+#header-container {
+    margin: 0 auto;
+    max-width: 1920px;
+    text-align: center;
+    padding: 29px 0;
+}
+
+.header-item {
+    font-size: 12px;
+    font-family: "MullerMedium", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+.header-item:hover {
+    color: #dc9229;
+}
+
+#main {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-column-gap: 25px;
+    margin-bottom: 63px;
+}
+
+#organisation {
+    font-size: 45px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    padding-top: 130px;
+    max-width: 588px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#process {
+    max-width: 588px;
+}
+
+#process-photo-1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#process-photo-2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+#process_text-main {
+    font-size: 15px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    text-align: left;
+    max-width: 487px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 25px 0 63px 0;
+}
+
+.process_text {
+    font-size: 15px;
+    font-family: "MullerRegular", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    max-width: 277px;
+}
+
+.process_title {
+    font-size: 18px;
+    font-family: "MullerBold", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.111;
+    margin-bottom: 10px;
+}
+
+.process-photo {
+    width: 282px;
+}
+
+.process_info {
+    margin-bottom: 63px;
+}
+
+#happy-couples {
+    max-width: 1920px;
+    background-color: #faf7f2;
+}
+
+#happy-couples-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 24px;
+}
+
+.happy-couple-img {
+    max-width: 277px;
+}
+
+#happy-couples-title {
+    font-size: 45px;
+    font-family: "YesevaOne", serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin: 119px 0 60px 0;
+}
+
+.happy-couple-text {
+    font-size: 18px;
+    font-family: "MullerMediumItalic", serif;
+    color: rgb(197, 182, 152);
+    line-height: 1.111;
+    margin: 20px 0 85px 0;
+}
+
+#footer {
+    background-color: #f1d2bd;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    padding: 34px 0 34px 0;
+}
+
+#footer-container svg{
+    width: 30px;
+    height: 30px;
+    fill: rgb(153, 110, 28);
+}
+
+#svg {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+svg{
+    padding-right: 10px;
+}
+
+#footer-container svg:hover {
+    fill: rgb(108, 79, 24);
+}
+
+#footer .more_name {
+    padding-bottom: 0;
+}
+
+#license {
+    font-size: 11px;
+    font-family: "MullerRegularItalic", serif;
+    color: rgb(153, 110, 28);
+    line-height: 5;
+    justify-self: end;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.name, .more_name{
+    justify-self: center;
+}
+
+.fa-star {
+    font-size: 18px;
+    color: rgb(153, 110, 28);
+}
+
+.fa-star:hover {
+    color: #714e0e;
+}
+
+#banner {
+    height: 800px;
+    background: url("../images/analise-benevides-gWedi4SWsHQ-unsplash.png");
+    background-size: cover;
+    max-width: 100%;
+}
+
+#menu{
+    display: none;
+}
+
+#header_items img{
+    display: none;
+}
